@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+}
+.haut{
+    display: flex;
+    flex-direction: row;
+}
+#logo{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+main{
+    background-image: url('T.gif');
+    height: 500px;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    border-radius: 2%;
+}
+.titre{
+    font-size: 50px;
+    font-family:  'Corbel';
+    text-align: center;
+}
+.tex{
+    text-align: center;
+    font-family: 'Corbel';
+    font-size: 30px;
+}
+.tel{
+    font-family: 'Corbel';
+    text-align: center;
+    font-size: 35px;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 40px;
+}
+.img{
+    width: 400px;
+    border: 1px solid black;
+}
+.acc{
+    font-family: 'Corbel';
+    color: gray;
+    text-align: center;
+    font-size: 20px;
+}
+a{
+    color: gray;
+    font-size: 20px;
+}
+.charte{
+    font-family: 'Corbel';
+}
